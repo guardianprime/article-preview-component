@@ -6,5 +6,6 @@ const profileDiv = document.getElementById("profile-div");
 shareIcon.addEventListener("click", function(){
     wrapperOne.classList.toggle("hidden");
     wrapperTwo.classList.toggle("hidden");
+    profileDiv.classList.toggle("share");
     console.log("toggling classes")
 })
