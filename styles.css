@@ -34,7 +34,6 @@ main {
 
 .second-div {
   width: 100%;
-  padding: 30px;
 }
 
 .first-div img {
@@ -49,16 +48,22 @@ main {
   border-radius: 50%;
 }
 
-.second-div p:first-of-type {
+.word-wrapper p:first-of-type {
   color: var(--VERY-DARK-GRAYISH-BLUE);
   font-weight: 700;
   font-size: 1.3rem;
 }
 
-.second-div p:last-of-type {
-  margin: 20px 0px;
+.word-wrapper p:last-of-type {
+  margin: 20px 0px 0px;
   color: var(--GRAYISH-BLUE);
   font-weight: 500;
+}
+
+.word-wrapper {
+  width: 100%;
+  height: max-content;
+  padding: 30px 30px 20px;
 }
 
 .profile-div {
@@ -66,12 +71,20 @@ main {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  padding: 5px 30px;
 }
+
+.wrapper-one,
+.wrapper-two {
+  width: 75%;
+}
+
+
 
 .profile {
   display: flex;
   justify-content: space-between;
-  width: 75%;
+  width: 100%;
 }
 
 .info-div {
@@ -83,10 +96,12 @@ main {
 .name {
   color: var(--VERY-DARK-GRAYISH-BLUE);
   font-weight: 700;
+  font-size: 1rem;
 }
 
 .date {
   color: var(--GRAYISH-BLUE);
+  font-size: 1rem;
 }
 
 .share-icon {
@@ -98,14 +113,14 @@ main {
   background-color: var(--LIGHT-GRAYISH-BLUE);
 }
 
+.share-icon:hover,
+.share-icon:focus {
+  cursor: pointer;
+}
 
 /* UTILITIES */
 .hidden {
     display: none;
-}
-
-.active {
-    display: block;
 }
 
 .attribution {
