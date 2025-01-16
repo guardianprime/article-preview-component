@@ -50,13 +50,13 @@ main {
   border-radius: 50%;
 }
 
-.word-wrapper p:first-of-type {
+.word-wrapper h1 {
   color: var(--VERY-DARK-GRAYISH-BLUE);
   font-weight: 700;
   font-size: clamp(1.2rem, 4vw, 1.5rem);
 }
 
-.word-wrapper p:last-of-type {
+.word-wrapper p {
   margin: 20px 0px 0px;
   color: var(--GRAYISH-BLUE);
   font-weight: 500;
@@ -188,11 +188,11 @@ main {
     height: 100%;
   }
 
-  .word-wrapper p:first-of-type {
+  .word-wrapper h1 {
     font-size: 1.3rem;
   }
 
-  .word-wrapper p:last-of-type {
+  .word-wrapper p {
     font-size: 1rem;
   }
 
